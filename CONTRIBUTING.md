@@ -2,7 +2,7 @@
 
 1. Open an Issue “Card <username>” using the template.
 2. Make a fork and a `card-<username>` branch from a fresh `main`.
-3. File `cards/<username>.json`: fields `name`, `profile`, `project` — full URLs, with `https://`.
+3. File `cards/<username>.json`: fields `name`, `profile`, `project` — full URLs, with `https://`; `stack` — technologies separated by a comma and a space.
 4. One commit with the message `feat: card <username>`; fixes — `fix: …`.
 5. A Pull Request to `main` of the gallery, with `Closes #<Issue number>` in the description.
 
